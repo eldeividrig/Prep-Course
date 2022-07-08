@@ -58,7 +58,7 @@ function filter(array) {
   //Tu código:
   //var nuevoArray = array.filter(function empiezaConA(elemento){
    // return elemento[0] === 'a';
-  //}, elemento); 
+  //}, elemento);
   //return nuevoArray;
 
   const newArr = array.filter(item => item.charAt(0) === 'a');
