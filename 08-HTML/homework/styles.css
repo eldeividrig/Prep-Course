@@ -1,8 +1,49 @@
+body {
+    background-image: url("https://www.argentinosencanarias.com/images/ASADO_ARGENTINO.jpg");
+    
+}
+
+
+
+.flex-container {
+    display: flex;
+    position: relative;
+    margin-left: 600px;
+    margin-right: 600px;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid black;
+    background-color: #ccc;
+    padding: 15px;    
+    flex-flow: column wrap;    
+}
+
 h1 {
+    color: blueviolet;    
+}
+h3 {
     color: blueviolet;
+    margin: 0 auto;
+    text-align: center;
+}
+h4{
+    color: blueviolet;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    color: blueviolet;
+    margin: 0 auto;
+    text-align: center;
 }
 img {
     width: 400px;
+}
+.divClass {
+    margin: 0 auto;
+    text-align: center;
+    color: blue;
 }
 #thirdDiv {
     height: 600px;
@@ -13,6 +54,4 @@ img {
 }
 #spanId {
     font-size: 18px;
-    margin: 50px;
-    
 }
